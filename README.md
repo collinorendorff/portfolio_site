@@ -1,2 +1,2 @@
-# portfolio_site
-Personal site laying out personal projects
+# My Personal Portfolio Site
+###### My site laying out personal details and projects.
