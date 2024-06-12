@@ -6,3 +6,19 @@
 html {
     background-color: #EDE8F5;
 }
+
+#my-name {
+    font-weight: 650;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+#top-bar {
+    display: flex;
+}
