@@ -7,18 +7,18 @@ html {
     background-color: #EDE8F5;
 }
 
-#my-name {
-    font-weight: 650;
+#top-bar {
+    display: inline-flex;
 }
 
-a {
-    text-decoration: none;
+#my-name {
+    font-weight: 650;
 }
 
 .nav-link {
     list-style-type: none;
 }
 
-#top-bar {
-    display: flex;
+a {
+    text-decoration: none;
 }
