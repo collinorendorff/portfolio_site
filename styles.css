@@ -87,38 +87,3 @@ footer {
     justify-content: center;
     padding-top: 50px;
 }
-
-@media only screen and (max-width: 1460px) {
-    #top-bar {
-        display: block;
-    }
-
-    #hero {
-        display: block;
-    }
-
-    #about-para {
-        width: 100%;
-    }
-
-    #skills-container img {
-        padding: 20px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .nav-link-a {
-        width: 150%;
-        white-space: nowrap;
-    }
-
-    #skills-container {
-        display: block;
-    }
-
-    #headshot {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
