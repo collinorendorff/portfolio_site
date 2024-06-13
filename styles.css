@@ -64,6 +64,11 @@ h2 {
 #headshot {
     height: 30rem;
     border-radius: 150px;
+    transition: border-radius 0.75s;
+}
+
+#headshot:hover {
+    border-radius: 10px;
 }
 
 #skills-container {
