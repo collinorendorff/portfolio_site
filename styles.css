@@ -34,6 +34,7 @@ a {
     text-decoration: none;
     padding: 8px;    
     border-radius: 5px;
+    transition: color 0.4s;
 }
 
 a:hover {
@@ -63,4 +64,19 @@ h2 {
 #headshot {
     height: 30rem;
     border-radius: 150px;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skills-container img {
+    height: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
