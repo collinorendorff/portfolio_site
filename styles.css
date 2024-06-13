@@ -124,9 +124,3 @@ footer {
         padding-right: 30px;
     }
 }
-
-@media only screen and (max-width: 1000px) {
-    html {
-        width: 50%;
-    }
-}
