@@ -97,26 +97,27 @@ footer {
         display: block;
     }
 
+    #about-para {
+        width: 100%;
+    }
+
     #skills-container img {
         padding: 20px;
     }
 }
 
 @media only screen and (max-width: 1200px) {
-    html {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
     .nav-link-a {
         width: 150%;
     }
 
-    #about-para {
-        width: 100%;
-    }
-
     #skills-container {
         display: block;
+    }
+
+    #headshot {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
