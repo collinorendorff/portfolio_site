@@ -59,12 +59,14 @@ h2 {
 
 #about-para {
     width: 60%;
+    padding-right: 20px;
 }
 
 #headshot {
     height: 30rem;
     border-radius: 150px;
     transition: border-radius 0.75s;
+    padding-left: 50px;
 }
 
 #headshot:hover {
@@ -84,4 +86,37 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+}
+
+@media only screen and (max-width: 1460px) {
+    #top-bar {
+        display: block;
+    }
+
+    #hero {
+        display: block;
+    }
+
+    #skills-container img {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .nav-link-a {
+        width: 150%;
+    }
+
+    #about-para {
+        width: 100%;
+    }
+
+    #skills-container {
+        display: block;
+    }
 }
