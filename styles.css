@@ -5,8 +5,19 @@
 
 html {
     background-color: #EDE8F5;
-    padding-left: 25rem;
-    padding-right: 25rem;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 #top-bar {
@@ -18,15 +29,23 @@ html {
     font-weight: 750;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
 nav ul {
     display: flex;
-    padding-top: 1rem;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
 }
 
 .nav-link {
-    list-style-type: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 8px;
 }
 
 a {
@@ -53,37 +72,40 @@ h2 {
 
 #hero {
     display: flex;
-    justify-content: space-between;
     padding-bottom: 50px;
 }
 
 #about-para {
     width: 60%;
-    padding-right: 20px;
+    margin-right: 16px;
 }
 
 #headshot {
-    height: 30rem;
-    border-radius: 150px;
-    transition: border-radius 0.75s;
-    padding-left: 50px;
-}
-
-#headshot:hover {
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 20px;
+    flex-shrink: 0;
 }
 
 #skills-container {
     display: flex;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #skills-container img {
-    height: 3rem;
+    height: 2rem;
+    width: auto;
 }
 
 footer {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #hero {
+        flex-direction: column;
+    }
 }
