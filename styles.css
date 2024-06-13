@@ -5,20 +5,62 @@
 
 html {
     background-color: #EDE8F5;
+    padding-left: 25rem;
+    padding-right: 25rem;
 }
 
 #top-bar {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 #my-name {
-    font-weight: 650;
+    font-weight: 750;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 1rem;
 }
 
 .nav-link {
     list-style-type: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 a {
+    color: black;
     text-decoration: none;
+    padding: 8px;    
+    border-radius: 5px;
+}
+
+a:hover {
+    color: white;
+    background-color: #8697C4;
+}
+
+a:active {
+    color: white;
+    background-color: #3D52A0;
+}
+
+h2 {
+    font-weight: 650;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#about-para {
+    width: 60%;
+}
+
+#headshot {
+    height: 30rem;
+    border-radius: 150px;
 }
