@@ -116,6 +116,11 @@ footer {
     nav {
         align-self: flex-start;
     }
+
+    #skills-container img {
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
 }
 
 /* Contact Page */
